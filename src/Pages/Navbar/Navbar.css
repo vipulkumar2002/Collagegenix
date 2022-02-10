@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  color: #fff;
+  background-color: #00aec7;
+}
+
+.nav-container {
+  display: grid;
+  justify-content: space-between;
+}
+.logo-container {
+  height: 75px;
+  width: 120px;
+  background-color: #00aec7;
+  padding: 0;
+}
+
+.logo-img {
+  height: 100%;
+  width: 100%;
+}
+
+.content-img {
+  margin: 0;
+  padding: 0;
+  height: 80vh;
+  width: 100%;
+}
+
+.nav-item a {
+  color: #fff;
+}
