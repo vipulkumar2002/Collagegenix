@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 //Components
 import Navbar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer";
 
 //Pages
 import Internships from "./Pages/Internships/Internships";
@@ -24,6 +25,7 @@ export const App = () => {
           <Route path="/login" element={<Login />} />
         </Routes>
       </div>
+      <Footer />
     </>
   );
 };
