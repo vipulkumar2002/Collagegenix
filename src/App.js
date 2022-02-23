@@ -16,7 +16,7 @@ export const App = () => {
   return (
     <>
       <Navbar />
-      <div>
+      <div className="main-content">
         <Routes>
           <Route path="/internships" element={<Internships />} />
           <Route path="/placements" element={<Placements />} />
@@ -25,7 +25,9 @@ export const App = () => {
           <Route path="/login" element={<Login />} />
         </Routes>
       </div>
-      <Footer />
+      <div className="footer">
+        <Footer />
+      </div>
     </>
   );
 };
