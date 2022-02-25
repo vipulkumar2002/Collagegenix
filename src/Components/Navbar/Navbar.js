@@ -12,12 +12,14 @@ export const Navabar = () => {
             id="navbarNav"
           >
             <div className="logo-container">
-              <h1 className="logo-img">Collegegenix</h1>
+              <Link to="/" className="logo-img">
+                Collegegenix
+              </Link>
             </div>
-            <div className="navbar-nav">
-              <li className="nav-item dropdown">
+            <div className="navbar-nav ">
+              <li className="nav-item dropdown ">
                 <a
-                  className="nav-link dropdown-toggle text-black"
+                  className="nav-link dropdown-toggle text-black "
                   href="#"
                   id="navbarDropdown"
                   role="button"
@@ -26,10 +28,10 @@ export const Navabar = () => {
                 >
                   CollegeSpace
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul className="dropdown-menu " aria-labelledby="navbarDropdown">
                   <li>
                     <Link
-                      className="dropdown-item text-black text-center"
+                      className="dropdown-item text-black text-center "
                       to="/internships"
                     >
                       Internships

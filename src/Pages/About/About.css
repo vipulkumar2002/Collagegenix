@@ -1,3 +1,10 @@
+.about-card-cointainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .about-title {
   text-align: center;
   color: black;
@@ -6,17 +13,12 @@
 
 .about-descrip {
   text-align: center;
-  margin: 0 8rem 0 8rem;
+  margin: 0 6rem 0 6rem;
   padding: 15px;
   color: black;
   font-family: "Gill Sans", sans-serif;
 }
 
-.about-card-cointainer {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
 .card-logo {
   height: 200px;
   width: 100%;
@@ -27,8 +29,24 @@
   -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-  width: 20%;
+  max-width: 300px;
   height: auto;
   border-radius: 5px;
   margin: 15px;
 }
+/* 
+@media screen and (max-width: 360px) {
+  .about-card-cointainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-card-cointainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+  }
+} */
