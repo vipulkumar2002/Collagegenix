@@ -1,8 +1,5 @@
-.footer-heading {
-  background-color: #00aec7;
-  text-align: center;
-  width: 100%;
-  height: 64px;
-  color: white;
-  margin-bottom: 0;
+.footer-hr {
+  width: 60px;
+  background-color: #7c4dff;
+  height: 2px;
 }

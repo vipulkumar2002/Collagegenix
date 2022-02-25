@@ -6,7 +6,9 @@ const Internships = () => {
   return (
     <>
       <h1 className="intern-heading">CollegeSpace - Internships</h1>
-      <div className="cards">
+      <div className="cards row col-md-6 col-lg-4 ">
+        <Cards />
+        <Cards />
         <Cards />
         <Cards />
         <Cards />

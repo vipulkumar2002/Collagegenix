@@ -12,7 +12,7 @@ export const About = () => {
         from CDGI college and get the linkedin profiles of the placed students
         and get connected by them.
       </p>
-      <div className="about-card-cointainer">
+      <div className="about-card-cointainer  col-md-6 col-lg-4">
         <div className="about-card">
           <img src={logoImage} alt="logo" className="card-logo" />
           <h3 className="p-1 text-center">Who we are?</h3>

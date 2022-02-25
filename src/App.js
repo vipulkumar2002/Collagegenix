@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 
 //Pages
+import Home from "./Pages/Home/Home";
 import Internships from "./Pages/Internships/Internships";
 import Placements from "./Pages/Placements/Placement";
 import Contactus from "./Pages/Contact/Contact";
@@ -18,6 +19,7 @@ export const App = () => {
       <Navbar />
       <div className="main-content">
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/internships" element={<Internships />} />
           <Route path="/placements" element={<Placements />} />
           <Route path="/contactus" element={<Contactus />} />

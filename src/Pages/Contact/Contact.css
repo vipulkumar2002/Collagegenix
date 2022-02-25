@@ -1,0 +1,15 @@
+.register-contect {
+  width: 40%;
+  margin: 50px 60px;
+}
+.register-contect span {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.register-contect h1 {
+  margin-bottom: 30px;
+}
+.register-form {
+  width: 35%;
+  margin: 0 50px;
+}
