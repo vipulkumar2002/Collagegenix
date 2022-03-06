@@ -82,6 +82,11 @@ const Footer = () => {
                     Contact Us
                   </a>
                 </p>
+                <p>
+                  <a href="#" className="text-white">
+                    Team
+                  </a>
+                </p>
               </div>
               {/* <!-- Grid column --> */}
 
@@ -112,7 +117,7 @@ const Footer = () => {
           className="text-center p-3"
           style={{ backgroundColor: " rgba(0, 0, 0, 0.2)" }}
         >
-          © 2020 Copyright:
+          Copyright © 2022 | collegegenix
           <a className="text-white" href=" "></a>
         </div>
         {/* <!-- Copyright --> */}

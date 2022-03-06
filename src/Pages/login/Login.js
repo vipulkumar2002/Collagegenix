@@ -5,43 +5,51 @@ const Login = () => {
   return (
     <>
       <div className="login-container">
-        <form className="login-contant">
-          <div className="mb-3">
-            <label htmlFor="exampleInputEmail1" className="form-label">
-              Username
-            </label>
+        <form action="" className="gform">
+          <h4 className="text-">REGISTER</h4>
+          <p>We'll never share your email with anyone else.</p>
+
+          <div className="mb-2 form-group">
+            <input
+              type="text"
+              className="form-control"
+              id="name"
+              name="name"
+              placeholder="Full Name"
+            />
+          </div>
+          <div className="mb-2 form-group ">
             <input
               type="email"
               className="form-control"
-              id="exampleInputEmail1"
+              id="email"
+              name="email"
               aria-describedby="emailHelp"
+              placeholder="Email ID"
             />
-            <div id="emailHelp" className="form-text">
-              We'll never share your email with anyone else.
-            </div>
           </div>
-          <div className="mb-3">
-            <label htmlFor="exampleInputPassword1" className="form-label">
-              Password
-            </label>
+
+          <div className="form-group mb-2">
             <input
-              type="password"
+              type="number"
               className="form-control"
-              id="exampleInputPassword1"
+              id="phone-number"
+              name="phone-number"
+              placeholder="Contact Number"
             />
           </div>
-          <div className="mb-3 form-check">
-            <input
-              type="checkbox"
-              className="form-check-input"
-              id="exampleCheck1"
-            />
-            <label className="form-check-label" htmlFor="exampleCheck1">
-              Check me out
-            </label>
+          <div className="form-group mb-2">
+            <textarea
+              name="message"
+              id="message"
+              className="form-control"
+              cols="7"
+              rows="5"
+              placeholder="Message"
+            ></textarea>
           </div>
-          <button type="submit" className="btn btn-primary">
-            Submit
+          <button type="submit" className="btn btn-primary form-control fs-5">
+            Register
           </button>
         </form>
       </div>

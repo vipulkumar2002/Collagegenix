@@ -26,8 +26,10 @@ const Contact = () => {
       <div className="col-md-6 register-form">
         <form action="" className="gform">
           <h4>REGISTER HERE</h4>
-          <p>Fill below details to speak with our executive.</p>
-          <div className="form-group">
+          <p>Fill below details to speak with our team.</p>
+          <p>We'll never share your email with anyone else.</p>
+
+          <div className="mb-2 form-group">
             <input
               type="text"
               className="form-control"
@@ -36,7 +38,7 @@ const Contact = () => {
               placeholder="Full Name"
             />
           </div>
-          <div className="form-group">
+          <div className="mb-2 form-group ">
             <input
               type="email"
               className="form-control"
@@ -46,7 +48,8 @@ const Contact = () => {
               placeholder="Email ID"
             />
           </div>
-          <div className="form-group">
+
+          <div className="form-group mb-2">
             <input
               type="number"
               className="form-control"
@@ -55,7 +58,7 @@ const Contact = () => {
               placeholder="Contact Number"
             />
           </div>
-          <div>
+          <div className="form-group mb-2">
             <textarea
               name="message"
               id="message"
