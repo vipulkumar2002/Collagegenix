@@ -16,8 +16,8 @@ const Cards = () => {
           <h6 id="personName" className="card-title">
             Person Name
           </h6>
-          <h6 id="position" className="card-text">
-            Position
+          <h6 id="jobRole" className="card-text">
+            Job Role
           </h6>
           <h6 id="companyName">Company Name</h6>
           <a href="#" className="btn btn-primary ">
