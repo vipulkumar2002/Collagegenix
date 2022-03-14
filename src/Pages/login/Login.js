@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import { useHistory } from "react-router-dom";
 import "./Login.css";
 
 const Login = () => {
@@ -7,16 +8,25 @@ const Login = () => {
   const [passward, setPassward] = useState("");
   const [passErr, setPassErr] = useState(false);
 
+  // const history = useHistory();
+
+  // useEffect(() => {
+  //   if (localStorage.getItem("user-info")) {
+  //     history.push("/");
+  //   }
+  // }, []);
+
   function handleSubmit(e) {
     if (userId.length < 4 || passward.length < 6) {
       alert("Invalid User Name anad Password");
-    } else alert("Log In succes");
+    } else alert("Log In success :)");
     e.preventDefault();
     // console.log(email, passward);
   }
 
   function userHandlar(e) {
     let item = e.target.value;
+
     if (item.length < 4) {
       // console.log("Invalid User Name");
       setUserIdErr(true);
