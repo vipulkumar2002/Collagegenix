@@ -20,7 +20,12 @@ const Cards = () => {
             Job Role
           </h6>
           <h6 id="companyName">Company Name</h6>
-          <a href="#" className="btn btn-primary ">
+          <a
+            href="https://www.linkedin.com/in/vipul-p-46171118a/"
+            target="_blank"
+            className="btn btn-primary "
+            rel="noopener noreferrer"
+          >
             LinkedIn
           </a>
         </div>
