@@ -1,3 +1,8 @@
+.main_content {
+  background: #eeebf0;
+  padding: 50px 0px;
+}
+
 .about-card-cointainer {
   width: 100%;
   display: flex;

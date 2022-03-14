@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="d-flex">
+    <div className="d-flex main_content">
       <div className="col-md-6  register-contect">
         <span>Dream it, Believe it, Do it</span>
         <h1>REGISTER NOW</h1>

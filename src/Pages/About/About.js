@@ -2,9 +2,9 @@ import React from "react";
 import "./About.css";
 import logoImage from "../../Assets/800_3684390_3bgoxu2lzlry1alibf1vlwqvm8hm5l1gs9kibu6g_cg-monogram-logo-design.jpg";
 
-export const About = () => {
+const About = () => {
   return (
-    <>
+    <div className="main_content">
       <h1 className="about-title">Welcome to CollegeGenix</h1>
       <p className="about-descrip">
         CollegeGenix, In this platform the student can get the information
@@ -50,7 +50,7 @@ export const About = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -43,7 +43,7 @@ const Login = () => {
   }
 
   return (
-    <>
+    <div className="main_content">
       <div className="login-container col-sm-4 offset-sm-4">
         <form onSubmit={handleSubmit} className="gform">
           <h4 className="text-bold ">Log In, Here</h4>
@@ -81,7 +81,7 @@ const Login = () => {
           <button className="btn btn-primary form-control fs-5">Log In</button>
         </form>
       </div>
-    </>
+    </div>
   );
 };
 
