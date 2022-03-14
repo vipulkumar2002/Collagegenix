@@ -16,11 +16,11 @@ export const Navabar = () => {
                 Collegegenix
               </Link>
             </div>
+
             <div className="navbar-nav ">
               <li className="nav-item dropdown ">
                 <a
                   className="nav-link dropdown-toggle text-black "
-                  href="#"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -57,6 +57,7 @@ export const Navabar = () => {
                   About Us
                 </Link>
               </li>
+
               <li className="nav-item ">
                 <Link className="nav-link active" to="/login">
                   login
