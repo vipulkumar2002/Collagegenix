@@ -7,11 +7,12 @@
 .navbar {
   color: #fff;
   background-color: #00aec7;
+  z-index: 1;
 }
 
 .nav-container {
   display: grid;
-  justify-content: space-between;
+ justify-content: space-between; 
 }
 .logo-container {
   display: flex;
