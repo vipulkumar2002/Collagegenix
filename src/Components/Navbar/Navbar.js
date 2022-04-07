@@ -57,12 +57,6 @@ export const Navabar = () => {
                   About Us
                 </Link>
               </li>
-
-              <li className="nav-item ">
-                <Link className="nav-link active" to="/login">
-                  login
-                </Link>
-              </li>
             </div>
           </div>
 

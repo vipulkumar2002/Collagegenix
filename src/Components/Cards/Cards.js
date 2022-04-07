@@ -1,35 +1,65 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import "./Cards.css";
+import { BsLinkedin } from "react-icons/bs";
 
 const Cards = () => {
+  const [profiles, setProfiles] = useState([]);
+  // console.log(profiles);
+  useEffect(() => {
+    getAllProfiles();
+  }, []);
+
+  async function getAllProfiles() {
+    try {
+      const profiles = await axios.get(
+        `http://localhost:4040/profiles/internships`
+      );
+      // console.log(profiles.data.internships);
+      setProfiles(profiles.data.internships);
+    } catch (error) {
+      console.log("Something went wrong");
+    }
+  }
   return (
     <>
-      <div className="card card-container">
-        <img
-          src="https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300"
-          className=" card-image"
-          id="imageUrl"
-          alt="img"
-        />
-
-        <div className="card-body">
-          <h6 id="personName" className="card-title">
-            Person Name
-          </h6>
-          <h6 id="jobRole" className="card-text">
-            Job Role
-          </h6>
-          <h6 id="companyName">Company Name</h6>
-          <a
-            href="https://www.linkedin.com/in/vipul-p-46171118a/"
-            target="_blank"
-            className="btn btn-primary "
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-        </div>
-      </div>
+      {profiles.map((profile, i) => {
+        return (
+          <div className="card main-container" key={i}>
+            <div className="div_1 text-muted">
+              <div className="img-div">
+                <img
+                  src={profile.image_url}
+                  className="card-image"
+                  id="imageUrl"
+                  alt="img"
+                />
+                <div className="text-center">
+                  <a
+                    href={profile.linkedin}
+                    target="_blank"
+                    className="btn-primary btn-sm btn "
+                  >
+                    <BsLinkedin className="text-md" />
+                    LinkedIn
+                  </a>
+                </div>
+              </div>
+              <div className="card-body">
+                <h6 id="personName" name="person_Name">
+                  {profile.person_name}
+                </h6>
+                <hr />
+                <h6 id="jobRole" name="job_Role">
+                  {profile.job_role}
+                </h6>
+                <hr />
+                <h6 id="companyName"> {profile.company_name}</h6>
+              </div>
+            </div>
+          </div>
+        );
+      })}
     </>
   );
 };
