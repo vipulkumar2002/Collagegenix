@@ -34,11 +34,12 @@ const Cards = () => {
                   id="imageUrl"
                   alt="img"
                 />
-                <div className="text-center">
+                <div className="text-center ">
                   <a
                     href={profile.linkedin}
                     target="_blank"
-                    className="btn-primary btn-sm btn "
+                    rel="noreferrer"
+                    className="btn-primary mt-2 btn-sm btn "
                   >
                     <BsLinkedin className="text-md" />
                     LinkedIn

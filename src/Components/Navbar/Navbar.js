@@ -18,16 +18,16 @@ export const Navabar = () => {
             </div>
 
             <div className="navbar-nav ">
-              <li className="nav-item dropdown ">
-                <a
-                  className="nav-link dropdown-toggle text-black "
+              <ul className="nav-item dropdown ">
+                <li
+                  className="nav-link dropdown-toggle text-white "
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   CollegeSpace
-                </a>
+                </li>
                 <ul className="dropdown-menu " aria-labelledby="navbarDropdown">
                   <li>
                     <Link
@@ -46,14 +46,14 @@ export const Navabar = () => {
                     </Link>
                   </li>
                 </ul>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link active " to="/contactus">
+              </ul>
+              <li className="nav-item ">
+                <Link className="nav-link active text-white" to="/contactus">
                   Contact Us
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active " to="/aboutus">
+                <Link className="nav-link active text-white" to="/aboutus">
                   About Us
                 </Link>
               </li>

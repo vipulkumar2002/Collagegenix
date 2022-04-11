@@ -21,20 +21,20 @@ const Footer = () => {
 
           {/* <!-- Right --> */}
           <div>
-            <a href="#" className="text-white me-4">
+            <a href="/#" className="text-white me-4">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#" className="text-white me-4">
+            <a href="/#" className="text-white me-4">
               <i className="fab fa-twitter"></i>
             </a>
 
-            <a href="#" className="text-white me-4">
+            <a href="/#" className="text-white me-4">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="#" className="text-white me-4">
+            <a href="/#" className="text-white me-4">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="#" className="text-white me-4">
+            <a href="/#" className="text-white me-4">
               <i className="fab fa-github"></i>
             </a>
           </div>
@@ -68,22 +68,22 @@ const Footer = () => {
                 <h6 className="text-uppercase fw-bold">Links</h6>
                 <hr className="mb-4 mt-0 d-inline-block mx-auto footer-hr" />
                 <p>
-                  <a href="#" className="text-white">
+                  <a href="/" className="text-white">
                     Home
                   </a>
                 </p>
                 <p>
-                  <a href="#" className="text-white">
+                  <a href="/#" className="text-white">
                     About Us
                   </a>
                 </p>
                 <p>
-                  <a href="#" className="text-white">
+                  <a href="/#" className="text-white">
                     Contact Us
                   </a>
                 </p>
                 <p>
-                  <a href="#" className="text-white">
+                  <a href="/#" className="text-white">
                     Team
                   </a>
                 </p>
@@ -118,7 +118,6 @@ const Footer = () => {
           style={{ backgroundColor: " rgba(0, 0, 0, 0.2)" }}
         >
           Copyright © 2022 | collegegenix
-          <a className="text-white" href=" "></a>
         </div>
         {/* <!-- Copyright --> */}
       </footer>

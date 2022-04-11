@@ -9,13 +9,6 @@ const Placement = () => {
       <h1 className="placement-heading">CollegeSpace - Placements</h1>
       <div className="cards row col-md-6 col-lg-4 ">
         <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
       </div>
     </div>
   );
