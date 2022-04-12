@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Footer.css";
 
 const Footer = () => {
@@ -98,9 +99,14 @@ const Footer = () => {
                 <p>
                   <i className="fas fa-home mr-3"></i> Indore, Madhya pradesh
                 </p>
-                <p>
-                  <i className="fas fa-envelope mr-3"></i> info@example.com
-                </p>
+                <a
+                  href="mailto:himanshilakhera1333@gmail.com"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <i className="fas fa-envelope mr-3"></i>
+                  <span>himanshilakhera1333@gmail.com</span>
+                </a>
                 <p>
                   <i className="fas fa-phone mr-3"></i> + 01 234 567 88
                 </p>

@@ -3,7 +3,7 @@ import axios from "axios";
 import "./Cards.css";
 import { BsLinkedin } from "react-icons/bs";
 
-const Cards = () => {
+const PlacementCard = () => {
   const [profiles, setProfiles] = useState([]);
   // console.log(profiles);
   useEffect(() => {
@@ -13,10 +13,10 @@ const Cards = () => {
   async function getAllProfiles() {
     try {
       const profiles = await axios.get(
-        `http://localhost:4040/profiles/internships`
+        `http://localhost:4040/profiles/placements`
       );
       // console.log(profiles.data.internships);
-      setProfiles(profiles.data.internships);
+      setProfiles(profiles.data.placements);
     } catch (error) {
       console.log("Something went wrong");
     }
@@ -65,4 +65,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default PlacementCard;

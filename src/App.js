@@ -6,7 +6,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 
 //Pages
-import Home  from "./Pages/Home/Home";
+import Home from "./Pages/Home/Home";
 import Internships from "./Pages/Internships/Internships";
 import Placements from "./Pages/Placements/Placement";
 import Contactus from "./Pages/Contact/Contact";

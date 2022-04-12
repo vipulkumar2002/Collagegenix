@@ -2,7 +2,7 @@ import React from "react";
 import "./Internships.css";
 //Componenets
 
-import Cards from "../../Components/Cards/Cards";
+import Cards from "../../Components/Cards/InternshipCard";
 
 const Internships = () => {
   return (
