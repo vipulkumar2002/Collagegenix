@@ -18,9 +18,9 @@ export const Navabar = () => {
             </div>
 
             <div className="navbar-nav ">
-              <ul className="nav-item dropdown ">
+              <li className="nav-item dropdown ">
                 <li
-                  className="nav-link dropdown-toggle text-white "
+                  className="nav-link dropdown-toggle text-white"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -46,7 +46,7 @@ export const Navabar = () => {
                     </Link>
                   </li>
                 </ul>
-              </ul>
+              </li>
               <li className="nav-item ">
                 <Link className="nav-link active text-white" to="/contactus">
                   Contact Us
@@ -59,7 +59,7 @@ export const Navabar = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link active text-white" to="/team">
-                  Team
+                  Meet Our Team
                 </Link>
               </li>
             </div>
@@ -74,7 +74,7 @@ export const Navabar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon "></span>
           </button>
         </div>
       </nav>

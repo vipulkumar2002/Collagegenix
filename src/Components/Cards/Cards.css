@@ -20,14 +20,14 @@
 .card-body {
   display: flex;
   justify-content: center;
-  width: 150px;
+  max-width: 150px;
   flex-direction: column;
   height: 200px;
 }
 .card-image {
   margin: 10px;
-  height: 150px;
-  width: 150px;
+  max-height: 150px;
+  max-width: 150px;
   border-radius: 100%;
   display: flex;
   align-items: center;
