@@ -57,6 +57,11 @@ export const Navabar = () => {
                   About Us
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link active text-white" to="/team">
+                  Team
+                </Link>
+              </li>
             </div>
           </div>
 

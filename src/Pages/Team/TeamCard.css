@@ -1,0 +1,38 @@
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Team-icons{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.9rem;
+  margin: 0.8rem 0;
+}
+.Team-icons .fa-icon{
+  background-color:	#4267B2;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.Team-icons .ins-icon{
+  background-color:	#E1306C;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0.3rem;
+}
+.Team-icons .lin-icon{
+  background-color:	#4267B2;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0.3rem;
+}
+.Team-icons .git-icon{
+  background-color:	#171515;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0.3rem;
+}
