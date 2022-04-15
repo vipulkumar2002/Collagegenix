@@ -12,17 +12,17 @@ function TeamCard(props){
 
 
     <div className='Team-icons'>
-            <a href={props.faLink} className="fa-icon">
+            <a href="https://www.facebook.com/profile.php?id=100079480882277" className="fa-icon">
               <i className="fab fa-facebook-f"> </i>
             </a>
             
             <a href="https://www.instagram.com/vishal_patel_0803/" className="ins-icon">
               <i className="fab fa-instagram"></i>
             </a>
-            <a  href={props.linkeLink} className="lin-icon">
+            <a  href="https://www.linkedin.com/in/vishal-patel-0937721a7/" className="lin-icon">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href={props.gitLink} className="git-icon">
+            <a href="https://github.com/YVishal-Patel/" className="git-icon">
               <i className="fab fa-github"></i>
             </a>
           </div>
