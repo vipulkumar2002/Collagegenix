@@ -36,9 +36,9 @@ const Footer = () => {
             <Link to="#" className="text-white me-4">
               <i className="fab fa-linkedin"></i>
             </Link>
-            <Link to="#" className="text-white me-4">
+            {/* <Link to="#" className="text-white me-4">
               <i className="fab fa-github"></i>
-            </Link>
+            </Link> */}
           </div>
           {/* <!-- Right --> */}
         </section>
@@ -93,23 +93,26 @@ const Footer = () => {
               {/* <!-- Grid column --> */}
 
               {/* <!-- Grid column --> */}
-              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <div className="col-md-4 col-lg-3  col-xl-3 mx-auto mb-md-0 mb-4">
                 {/* <!-- Links --> */}
                 <h6 className="text-uppercase fw-bold">Contact</h6>
                 <hr className="mb-4 mt-0 d-inline-block mx-auto footer-hr" />
                 <p>
                   <i className="fas fa-home mr-3"></i> Indore, Madhya pradesh
                 </p>
-                <a
-                  href="mailto:himanshilakhera1333@gmail.com"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <i className="fas fa-envelope mr-3 email-icon"></i>
-                  <span className="email-link">Collegegenix@gmail.com</span>
-                </a>
                 <p>
-                  <i className="fas fa-phone mr-3"></i> + 01 234 567 88
+                  <a
+                    href="mailto:himanshilakhera1333@gmail.com"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="text-decoration-none  mr-3 text-white"
+                  >
+                    <i className="fas fa-envelope  mr-3 text-center"></i>
+                    Collegegenix@gmail.com
+                  </a>
+                </p>
+                <p>
+                  <i className="fas fa-phone  mr-3"></i> + 01 234 567 88
                 </p>
                 <p>
                   <i className="fas fa-print mr-3"></i> + 01 234 567 89

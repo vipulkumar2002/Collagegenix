@@ -1,15 +1,24 @@
-import React from 'react'
-import './TeamCard.css'
-import { Link} from 'react-router-dom'
+import React from "react";
+import "./TeamCard.css";
+// import { Link} from 'react-router-dom'
 
-function TeamCard(props){
-    return(<>
-    <div className="container">
-    <img src={props.img} alt="" />
-    <h5>{props.name}</h5>
-    <p>{props.Title}</p>
-    <h4>{props.position}</h4>
+function TeamCard(props) {
+  return (<>
+      <div className="container">
+        <img src={props.img} alt="" />
+        <h5>{props.name}</h5>
+        <p>{props.Title}</p>
+        <h4>{props.position}</h4>
 
+        <div className="Team-icons">
+          {/* <a
+            href={props.faLink}
+            target="_blank"
+            rel="noreferrer"
+            className="fa-icon"
+          >
+            <i className="fab fa-facebook-f"> </i>
+          </a> */}
 
     <div className='Team-icons'>
             <a href="https://www.facebook.com/profile.php?id=100079480882277" className="fa-icon">
@@ -26,6 +35,7 @@ function TeamCard(props){
               <i className="fab fa-github"></i>
             </a>
           </div>
+    </div>
     </div>
     </>)
 }
