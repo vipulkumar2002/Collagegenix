@@ -6,12 +6,17 @@ export const Navabar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light navbar">
-        <div className="container-fluid">
+        <div className="container-fluid ">
+      <div className="logo-container order-10">
+              <Link to="/" className="logo-img">
+                Collegegenix
+              </Link>
+            </div>
           <div
-            className="collapse nav-container navbar-collapse"
+            className="collapse nav-container navbar-collapse order-1"
             id="navbarNav"
           >
-            <div className="logo-container">
+            <div className="logo-container1">
               <Link to="/" className="logo-img">
                 Collegegenix
               </Link>

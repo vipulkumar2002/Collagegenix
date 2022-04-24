@@ -15,7 +15,7 @@ const InternshipCard = () => {
       const profiles = await axios.get(
         `http://localhost:4040/profiles/internships`
       );
-      // console.log(profiles.data.internships);
+      console.log(profiles.data.internships);
       setProfiles(profiles.data.internships);
     } catch (error) {
       console.log("Something went wrong");
