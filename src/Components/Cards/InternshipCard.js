@@ -34,6 +34,7 @@ const InternshipCard = () => {
                   id="imageUrl"
                   alt="img"
                 />
+                <img src="" alt="" sizes="" srcset="" />
                 <div className="text-center ">
                   <a
                     href={profile.linkedin}
