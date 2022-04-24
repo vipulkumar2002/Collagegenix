@@ -42,3 +42,23 @@
 .nav-item a {
   color: #fff;
 }
+
+ .logo-container{
+  display: none;
+}
+/* 
+.container-fluid {
+  height: 60px;
+} */
+
+
+@media only screen and (max-width: 991px){
+  .logo-container1{
+    display: none;
+  }
+  .logo-container{
+    display:flex;
+    margin-top: -0.6rem;
+  }
+  
+} 
